@@ -1,0 +1,57 @@
+
+.card{ 
+      /*  todo : note dont set height nor max height it'll cause problems */
+    /* height: 60%; */
+    /* max-height: 500px; */
+    border: 1px solid rgb(255, 255, 255);
+
+    /* ! NOTE  : even setting min height causes problems*/
+    /* min-height: 400px; */
+
+    
+    width: 300px;
+    max-width: 400px;
+
+
+
+    background: rgb(255, 255, 255,0.5);
+
+    margin: 32px auto;
+    /* margin-bottom: 128px; */
+
+    padding: 24px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /* box-sizing: border-box; */
+}
+
+.aadl-logo-1{ 
+    background-image: url('../../../assets/aadl.png');
+    width: 140px;
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+  
+
+
+
+}
+
+/* .aadl-logo{ 
+    background-image: url('../../assets/aadl.png');
+    width: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+
+} */

@@ -1,0 +1,52 @@
+.my-nav { 
+    display: flex;
+    
+
+    justify-content: space-between;
+
+    
+    /* background-color: rgba(200, 203, 228, 0.9); /* Same color, with transparency */
+    /* backdrop-filter: blur(10px); Optional: Adds a frosted glass effect */ 
+
+    background: linear-gradient(90deg, rgba(200, 203, 228, 0.8), rgba(255, 255, 255, 0.8));
+    
+    color: black;
+    padding: 8px 8px;
+
+}
+
+h1,h2,h4,h5{ 
+    margin: 0px;
+}
+
+p { 
+  font-size: 1rem;
+  font-weight:normal;
+}
+
+#title-0{ 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dz-logo{ 
+    background-image: url(../../../assets/dz_logo.png);
+    background-size: contain;
+   width: 120px;
+   background-repeat: no-repeat;
+
+   background-position: center;
+
+
+}
+
+.aadl-logo{ 
+    background-image: url('../../../assets/aadl.png');
+    width: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+
+}
