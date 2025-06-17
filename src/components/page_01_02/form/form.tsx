@@ -10,7 +10,7 @@ import terms_img from "../../../assets/terms_logo.png";
 import correct_logo from "../../../assets/icons8-correct-64.svg";
 
 // import nss from "../../../assets/nss.png";
-import nin from "../../../assets/NIN.png";
+// import NIN from "../../../assets/NIN.png";
 interface FormInterface {
   pageNumber: number;
   hide_show_numberLine: any;
@@ -29,7 +29,7 @@ function Form(props: FormInterface) {
   // const [page_01_continue, set_page_01_continue] = useState(false);
   // const [page_02_continue, set_page_02_continue] = useState(false);
 
-  const [phoneNumber, setPhoneNumber] = useState<String>("+213");
+  const [phoneNumber, setPhoneNumber] = useState<string>("+213");
   const [phoneNumberGreen, setPhoneNumberGreen] = useState(false);
 
   const [notARobot, setNotARobot] = useState(false);
@@ -222,7 +222,7 @@ function Form(props: FormInterface) {
     "999999999999999999",
   ];
 
-  function search_forNIN_user(NIN: String): boolean {
+  function search_forNIN_user(NIN: string): boolean {
     let exist = false;
 
     fake_NIN_database.forEach((nin) => {
@@ -236,6 +236,10 @@ function Form(props: FormInterface) {
 
     return exist;
   }
+
+  // To get the current NIN and NSS values:
+  console.log("Current NIN:", NIN);
+  console.log("Current NSS:", NSS);
 
   // ! page 01 :
   if (currentPage == 1) {
@@ -333,10 +337,11 @@ function Form(props: FormInterface) {
             }
             type="text"
             placeholder="NIN"
-            value={NIN.toString()}
+            value={NIN.toString()
+            }
             onChange={handleNINchange}
           />
-          <a href={nin} target="_blank">
+          <a href={NIN} target="_blank">
             <svg
               width="24px"
               height="24px"
