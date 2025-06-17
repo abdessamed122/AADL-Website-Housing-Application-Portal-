@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# 🏘️ AADL Website – Housing Application Portal Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **frontend clone** of the official website of **AADL (Agence Nationale de l'Amélioration et du Développement du Logement)** in Algeria. It provides a clean, responsive interface that simulates housing-related services, announcements, and user interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🏠 **Landing Page** with modern layout and design
+- 🧾 **Application Form** mockup for housing program simulation
+- 📰 **News & Announcements** section
+- 📱 **Fully Responsive** for mobile, tablet, and desktop
+- 🎨 Designed for easy customization and educational purposes
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+- **Bootstrap 5** (optional if included in your project)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
+Homepage of the AADL Website Clone
+<img width="959" alt="Capture d'écran 2025-06-17 234524" src="https://github.com/user-attachments/assets/aa3d55ef-8854-4957-825a-ac8eee5ee6ee" />
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<img width="959" alt="Capture d'écran 2025-06-17 234338" src="https://github.com/user-attachments/assets/80bf89d9-42f8-47b5-91ec-14f90835b3f9" />
+
+
+📄 License
+This project is licensed under the MIT License.
+Made with ❤️ by Abdessamed Ouahabi
